@@ -11,9 +11,7 @@ export default function FooterScreen() {
       }}>
       <TouchableOpacity>
         <Image
-          source={{
-            uri: 'https://www.habitat.org/sites/default/files/styles/780w/public/2018-05/icon-house.png?itok=beg84oiG',
-          }}
+          source={require('../Image/home.png')}
           style={{
             width: 40,
             height: 40,
@@ -24,9 +22,7 @@ export default function FooterScreen() {
       </TouchableOpacity>
       <TouchableOpacity>
         <Image
-          source={{
-            uri: 'https://www.habitat.org/sites/default/files/styles/780w/public/2018-05/icon-house.png?itok=beg84oiG',
-          }}
+          source={require('../Image/explore.png')}
           style={{width: 40, height: 40, marginHorizontal: 25}}
         />
       </TouchableOpacity>

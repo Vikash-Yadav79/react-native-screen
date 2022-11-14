@@ -32,7 +32,7 @@ const FirstPage = () => {
         </View>
       </ImageBackground>
       <View style={styles.body}>
-        <Text style={styles.body}>Best Deal</Text>
+        <Text style={styles.body}>Best Deals</Text>
         <Text style={styles.subtext}>Sorted by Lower price</Text>
       </View>
       <TouchableOpacity style={[styles.item, styles.small]}>

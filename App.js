@@ -11,9 +11,9 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="SecondPage" component={SecondPage} />
+        {/* <Stack.Screen name="SecondPage" component={SecondPage} /> */}
 
-        {/* <Stack.Screen name="FirstPage" component={FirstPage} /> */}
+        <Stack.Screen name="FirstPage" component={FirstPage} />
       </Stack.Navigator>
       <FooterScreen />
     </NavigationContainer>

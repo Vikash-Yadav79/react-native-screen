@@ -17,20 +17,29 @@ export default function Icon() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.hotel}>
-          <Image style={style.flight} source={require('../Image/bed.png')} />
+          <Image
+            style={style.subtexettour}
+            source={require('../Image/bed.png')}
+          />
         </TouchableOpacity>
         <TouchableOpacity style={style.car}>
-          <Image style={style.flight} source={require('../Image/car.png')} />
+          <Image
+            style={style.subtexettour}
+            source={require('../Image/car.png')}
+          />
         </TouchableOpacity>
         <TouchableOpacity style={style.tour}>
-          <Image style={style.flight} source={require('../Image/flight.png')} />
+          <Image
+            style={style.subtexettour}
+            source={require('../Image/tour.png')}
+          />
         </TouchableOpacity>
       </View>
       <View style={style.headerText}>
-        <Text>Flight</Text>
+        <Text style={{color: 'black'}}>Flight</Text>
         <Text style={style.headPlaceholder1}>Hotel</Text>
-        <Text>Car</Text>
-        <Text>Tour</Text>
+        <Text style={{color: 'black'}}>Car</Text>
+        <Text style={{color: 'black'}}>Tour</Text>
       </View>
     </>
   );
@@ -41,7 +50,7 @@ const style = StyleSheet.create({
     flexDirection: 'row',
     borderRadius: 30,
 
-    backgroundColor: 'blue',
+    backgroundColor: '#42b0f5',
     paddingHorizontal: 8,
     height: 50,
     width: 50,
@@ -56,7 +65,7 @@ const style = StyleSheet.create({
   hotel: {
     borderRadius: 30,
 
-    backgroundColor: 'blue',
+    backgroundColor: '#42b0f5',
     paddingHorizontal: 8,
     height: 50,
     width: 50,
@@ -66,7 +75,7 @@ const style = StyleSheet.create({
   car: {
     borderRadius: 30,
 
-    backgroundColor: 'blue',
+    backgroundColor: '#42b0f5',
     paddingHorizontal: 8,
     height: 50,
     width: 50,
@@ -76,7 +85,7 @@ const style = StyleSheet.create({
   tour: {
     borderRadius: 30,
 
-    backgroundColor: 'blue',
+    backgroundColor: '#42b0f5',
     paddingHorizontal: 8,
     height: 50,
     width: 50,
@@ -93,5 +102,11 @@ const style = StyleSheet.create({
   },
   headPlaceholder1: {
     marginRight: 20,
+    color: 'black',
+  },
+  subtexettour: {
+    width: 30,
+    height: 30,
+    marginTop: 8,
   },
 });

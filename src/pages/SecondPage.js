@@ -120,6 +120,7 @@ const style = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     color: 'black',
+    marginTop: 10,
   },
   rmCardImage: {
     width: 200,
@@ -134,7 +135,6 @@ const style = StyleSheet.create({
     borderRadius: 20,
     margin: 20,
     backgroundColor: '#dde3ed',
-
     padding: 20,
     height: 150,
   },
@@ -156,12 +156,12 @@ const style = StyleSheet.create({
     backgroundColor: '#dde3ed',
   },
   small: {
-    width: 140,
+    width: 160,
     padding: 30,
     marginHorizontal: 25,
   },
   hi: {
-    width: 140,
+    width: 160,
     marginTop: -170,
     marginHorizontal: 200,
     padding: 30,
@@ -201,20 +201,20 @@ const style = StyleSheet.create({
     height: 12,
 
     marginTop: -40,
-    marginHorizontal: 330,
+    marginHorizontal: 315,
   },
   star: {
     marginTop: -18,
     color: '#dbd825',
     textAlign: 'right',
-    marginRight: 15,
+    marginRight: 30,
     fontSize: 20,
     fontWeight: 'bold',
   },
   star2: {
     color: 'pink',
     textAlign: 'right',
-    marginRight: 15,
+    marginRight: 27,
     fontSize: 15,
   },
   btn3: {
