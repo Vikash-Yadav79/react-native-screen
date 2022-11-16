@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: '-20%',
-    // flexDirection: 'row',
   },
 
   price: {
@@ -58,7 +57,7 @@ const styles = StyleSheet.create({
   },
 });
 
-function FavItem() {
+function Heart() {
   const [fabitems, setFabItems] = useState(
     constant.filter(item => item.isFavourite === true),
   );
@@ -72,9 +71,6 @@ function FavItem() {
   return (
     <View>
       <ScrollView>
-        {/* <Text style={{fontSize: 20, textAlign: 'center', color: 'black'}}>
-          Products
-        </Text> */}
         {(fabitems || []).map(item => {
           return (
             <View key={item.id} style={styles.cards}>
@@ -109,4 +105,4 @@ function FavItem() {
   );
 }
 
-export default FavItem;
+export default Heart;

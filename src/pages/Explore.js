@@ -33,7 +33,9 @@ const Explore = ({navigation}) => {
               fontWeight: 'bold',
               color: 'white',
               marginBottom: 20,
-            }}></Text>
+            }}>
+            Wonderful Lake! SidhnathDari
+          </Text>
           <View style={{flexDirection: 'row'}}>
             <Icon name="star" size={30} color="orange" />
             <Text style={{color: 'white', fontWeight: 'bold', fontSize: 20}}>

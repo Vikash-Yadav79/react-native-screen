@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: '-20%',
-    // flexDirection: 'row',
   },
 
   price: {
@@ -70,9 +69,6 @@ function MoreItem() {
   return (
     <View>
       <ScrollView>
-        {/* <Text style={{fontSize: 20, textAlign: 'center', color: 'black'}}>
-          Products
-        </Text> */}
         {(constant || []).map(item => {
           return (
             <View key={item.id} style={styles.cards}>
