@@ -1,12 +1,5 @@
 import React, {useState} from 'react';
-import {
-  ScrollView,
-  Image,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} from 'react-native';
+import {ScrollView, Image, StyleSheet, Text, View} from 'react-native';
 import constant from './constant';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 

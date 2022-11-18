@@ -72,7 +72,7 @@ const FirstPage = props => {
           />
           <Text style={styles.down}>4.3</Text>
           <Image style={styles.Image5} source={require('../Image/icon.png')} />
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('moreItem')}>
             <Text style={styles.btn2}>More</Text>
           </TouchableOpacity>
           <TouchableOpacity>
